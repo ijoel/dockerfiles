@@ -1,4 +1,4 @@
-FROM alpine:3.23
+FROM alpine:3.24
 
 RUN apk --no-cache add wireguard-tools iptables ip6tables \
  && printf '#!/bin/sh\nif [ "$1" = "-a" ]; then\n  cat > /etc/resolv.conf\nfi\nexit 0\n' > /usr/bin/resolvconf \
