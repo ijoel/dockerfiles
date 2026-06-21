@@ -24,6 +24,7 @@ Archived and not tested anymore:
     their Next-gen server upgrade 2020/10)
   - PHP-FPM (works with Nginx)
   - Plex (Only using the official Plex Docker image now.)
+  - Podman prometheus exporter
   - Privatebin
   - Radarr
   - Rsync (used for backing up Docker data-only volumes)
